@@ -23,13 +23,12 @@ export default function UnderConstructionPage() {
 
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
             <span className="bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent">
-              Strona w trakcie budowy
+              Strona informacyjna
             </span>
           </h1>
 
           <p className="text-xl text-gray-300 mb-8">
-            Przepraszamy za niedogodność. Nasza strona główna jest obecnie w trakcie modernizacji.
-            Zapraszamy wkrótce!
+            Strona pełni wyłącznie funkcję informacyjną i została stworzona w celu udostępnienia regulaminu oraz niezbędnych informacji dla klientów. Nie jest sklepem internetowym ani miejscem, gdzie dochodzi do finalizacji transakcji.
           </p>
 
           <Link href="/regulamin">
