@@ -100,7 +100,7 @@ export default function RegulaminPage() {
                 </div>
                 <div className="text-gray-300 space-y-4 text-center">
                   <p>
-                    Niniejszy regulamin określa zasady świadczenia usług przez RELIDrive, prowadzony przez AureoTrade Mariusz Krupka, NIP: 9491004152, zwany dalej „Usługodawcą”.
+                    Niniejszy regulamin określa zasady świadczenia usług przez RELIDrive, prowadzony przez AureoTrade Mariusz Krupka, NIP: 9491004152, ul. Zbigniewa Herberta 4/3, 42-224 Częstochowa, Regon: 541440220, zwany dalej „Usługodawcą”.
                   </p>
                   <p>
                     Usługodawca działa jako pośrednik marketingowy – nie jest właścicielem, sprzedawcą ani stroną transakcji dotyczącej oferowanych pojazdów (np. skuterów, motocykli, samochodów).
