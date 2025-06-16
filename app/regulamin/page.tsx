@@ -8,8 +8,11 @@ import Link from "next/link"
 
 const fadeInUp = {
   initial: { opacity: 0, y: 60 },
-  animate: { opacity: 1, y: 0 },
-  transition: { duration: 0.6 },
+  animate: { opacity: 1, y: 0 }
+}
+
+const fadeInUpTransition = {
+  duration: 0.6
 }
 
 const staggerContainer = {
@@ -56,23 +59,23 @@ export default function RegulaminPage() {
           initial="initial"
           animate="animate"
         >
-          <motion.div variants={fadeInUp} className="flex justify-center mb-6">
+          <motion.div variants={fadeInUp} transition={fadeInUpTransition} className="flex justify-center mb-6">
             <div className="p-4 bg-orange-500/20 rounded-full">
               <Scale className="h-12 w-12 text-orange-500" />
             </div>
           </motion.div>
 
-          <motion.h1 variants={fadeInUp} className="text-4xl md:text-6xl font-bold mb-6">
+          <motion.h1 variants={fadeInUp} transition={fadeInUpTransition} className="text-4xl md:text-6xl font-bold mb-6">
             <span className="bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent">Regulamin</span>
             <br />
             Świadczenia Usług
           </motion.h1>
 
-          <motion.p variants={fadeInUp} className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+          <motion.p variants={fadeInUp} transition={fadeInUpTransition} className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
             Warunki korzystania z usług RELIDrive - aktualne od 16 czerwca 2025
           </motion.p>
 
-          <motion.div variants={fadeInUp} className="flex justify-center items-center space-x-6 text-sm text-gray-400">
+          <motion.div variants={fadeInUp} transition={fadeInUpTransition} className="flex justify-center items-center space-x-6 text-sm text-gray-400">
             <div className="flex items-center">
               <Clock className="h-4 w-4 mr-2" />
               Ostatnia aktualizacja: 16.06.2025
